@@ -30,7 +30,7 @@ app.use('/auth', Auth)
 app.use('/xenon', Xenon)
 app.use('/weather', Weather)
 app.get('/', (req, res) => {
-    res.send("WELCOME TO THE POSITIVE VIBES API\n")
+    res.send("WELCOME TO THE THE NEWS APP API\n")
 });
 
 app.use(function (req, res, next) {
